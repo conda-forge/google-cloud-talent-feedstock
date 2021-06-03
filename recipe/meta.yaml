@@ -22,8 +22,8 @@ requirements:
   run:
     - python
     - google-api-core-grpc >=1.22.2,<2.0.0dev
-    - proto-plus >= 1.15.0
-    - packaging >= 14.3
+    - proto-plus >=1.15.0
+    - packaging >=14.3
 
 test:
   imports:
