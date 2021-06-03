@@ -21,13 +21,16 @@ requirements:
     - pip >=18.1
   run:
     - python
-    - google-api-core-grpc >=1.14.0,<2.0.0dev
+    - google-api-core-grpc >=1.22.2,<2.0.0dev
+    - proto-plus >= 1.15.0
+    - packaging >= 14.3
 
 test:
   imports:
     - grpc
     - google.cloud.talent
     - google.cloud.talent_v4beta1
+    - google.cloud.talent_v4
 
 about:
   home: https://github.com/googleapis/python-talent
