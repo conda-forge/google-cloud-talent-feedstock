@@ -1,6 +1,6 @@
 {% set name = "google-cloud-talent" %}
-{% set version = "2.7.2" %}
-{% set sha256 = "b0d2bf061e7648f538348b9763ba896d1f2a6f11568b577243cad8dbf46e0b87" %}
+{% set version = "2.7.3" %}
+{% set sha256 = "80cdc2597f362b3935b826bf46ba25da263a79d6574f1cd0b1314e92117488ef" %}
 
 package:
   name: {{ name|lower }}
