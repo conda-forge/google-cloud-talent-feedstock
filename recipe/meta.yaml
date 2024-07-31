@@ -1,13 +1,13 @@
 {% set name = "google-cloud-talent" %}
-{% set version = "2.13.4" %}
-{% set sha256 = "259209d2d794d48c0e260271fe4d6d2b205f5442de25bd821a8fe5052d697f06" %}
+{% set version = "2.13.5" %}
+{% set sha256 = "f5b066f81b224a44d0af2fee6bc28244e91951f05a82c643d5bb2ec7ed205650" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
